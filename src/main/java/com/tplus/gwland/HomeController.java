@@ -43,4 +43,14 @@ public class HomeController {
 		return dir+":"+page;
 	}
 	
+	@GetMapping("/notiles/{dir}/{page}")
+	public String notilesMove(@PathVariable String dir, @PathVariable String page) {
+		return dir + "/" + page ;
+	}
+	
+	
 }
+
+
+
+
