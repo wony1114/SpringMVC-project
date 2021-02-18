@@ -23,7 +23,7 @@
 					<a href="#">메뉴3</a>
 					<ul class="secondary">
 						<li>
-							<a href="#">메뉴3-1</a>
+							<a href="#" id="bbs">메뉴3-1</a>
 						</li>
 					</ul>
 				</li>
@@ -36,4 +36,5 @@
 <script>
 	$('.home').click(function(){location.href='/gwland'})
 	$('#listPlace').click(function(){location.href='/gwland/pce/listPlace'})
+	$('#bbs').click(function(){location.href=`${ctx}/bbs/index`})
 </script>
