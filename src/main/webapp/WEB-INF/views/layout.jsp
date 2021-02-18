@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="<c:url value="/resources/cmm/css/style.css"/>" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
+
 <body>
 	<tiles:insertAttribute name="header"/>
 	<tiles:insertAttribute name="content"/>

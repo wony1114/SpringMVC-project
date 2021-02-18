@@ -1,15 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
-<head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="/gwland/resources/cli/js/client.js"></script>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
+<center>
 <h3>고객 상세 목록</h3>
+
 <table id="client-detail">
  <thead>
   <tr>
@@ -22,15 +17,19 @@
   </tr>
  </thead>
 </table>
+</center><br>
+
 
 <script>
 	client.detail()
 </script>
 
+<center>
 <input type="button" value="돌아가기" onclick="history.back(-1)">
-<button type="button" onclick="location.href='http://localhost:8080/gwland/' ">홈으로</button>
+<button type="button" onclick="location.href='http://localhost:8082/gwland/' ">홈으로</button>
 <button id='update-btn'> 회원정보 수정</button>
 <button id='delete-btn'> 회원정보 삭제</button>
+</center>
 
 
 
@@ -43,5 +42,3 @@ $(`#update-btn`).click(function(){
 </script>
 
 
-</body>
-</html>

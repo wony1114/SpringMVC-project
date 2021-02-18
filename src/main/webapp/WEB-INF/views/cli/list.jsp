@@ -1,15 +1,11 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<head>
 <script src="/gwland/resources/cli/js/client.js"></script>
-<meta charset="UTF-8">
 
-</head>
-<body>
+<center>
 <h2>고객 목록 </h2>
+
 <table id="client-list">
  <thead>
   <tr>
@@ -31,8 +27,7 @@
 
  <p>
 <input type="button" value="돌아가기" onclick="history.back(-1)">
-<button type="button" onclick="location.href='http://localhost:8080/gwland/' ">홈으로</button>
+<button type="button" onclick="location.href='http://localhost:8082/gwland/' ">홈으로</button>
 </p>
+</center>
 
-</body>
-</html>

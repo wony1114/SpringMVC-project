@@ -1,23 +1,18 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>고객정보 입력창</title>
-</head>
-<body>
 <form id="ClientInsertForm" name="ClientInsertForm" onsubmit="ClientInsertcheck()">
+
+<center>
 <table border="1" >
-<caption><b>고객정보 저장</b></caption>
+<caption><b><br>고객정보 저장</b></caption>
  <colgroup>
   <col width=100/>
   <col width=100/>
  </colgroup>
 
- <tbody>
  
+ <tbody>
   <tr>
    <th>고객아이디</th>
    <td>
@@ -57,6 +52,7 @@
 </p>
 
 </form>
+ </center>
 
 <script>
 $('#insert-btn').click(function(e){
@@ -90,5 +86,3 @@ $('#insert-btn').click(function(e){
 })
 </script>
 
-</body>
-</html>

@@ -16,7 +16,7 @@ client.list = x => {
 		$(this).click(function(){
 		localStorage.setItem('cliNum',this.id)
 		localStorage.setItem('cliId',this.innerText)
-		location.href=`/gwland/notiles/cli/detail`
+		location.href=`/gwland/cli/detail`
 		})
 	})
 	})

@@ -36,7 +36,7 @@
 <script>
 	$('.home').click(function(){location.href='/gwland'})
 	$('#listPlace').click(function(){location.href='/gwland/pce/listPlace'})
-	$('#cliHome').click(function(){location.href='/gwland/notiles/cli/cliHome'})
+	$('#cliHome').click(function(){location.href='/gwland/cli/cliHome'})
 </script>
 
 
